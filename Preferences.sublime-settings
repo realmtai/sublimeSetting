@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Theme - Nil/Tubnil.tmTheme",
+  "theme": "Nil.sublime-theme",
+	"font_size": 12,
+  "spell_check": true,
+  "auto_complete_delay": 0,
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
