@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 #ifdef DEBUG 
-    printf ("[%s]\t%s\t:\t%d\tvalue: ${1:%d}\n", __FILE__ , __PRETTY_FUNCTION__, __LINE__, ${2:0});
+    printf ("[%s]<>%s:%d<>value: ${1:%d}\n", __FILE__ , __PRETTY_FUNCTION__, __LINE__, ${2:0});
 #endif
       ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
