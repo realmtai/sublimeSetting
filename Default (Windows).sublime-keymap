@@ -1,6 +1,29 @@
 [
-  { "keys": ["alt+f11"], "command": "find_under_expand" },
+  { "keys": ["ctrl+\\"], "command": "find_under_expand" },
   { "keys": ["ctrl+p"], "command": "goto_definition" },
   { "keys": ["ctrl+f12"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-  { "keys": ["f12"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
+  { "keys": ["f12"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+  
+  { "keys": ["ctrl+\\"], "command": "find_under_expand" },
+  { "keys": ["ctrl+p"], "command": "goto_definition" },  
+  { "keys": ["enter"], "command": "commit_completion", "context":
+    [
+      { "key": "auto_complete_visible" },
+      { "key": "setting.auto_complete_commit_on_tab" }
+    ]
+  },
+
+  
+  { "keys": ["browser_forward"], "command": "next_view" },
+  { "keys": ["browser_back"], "command": "prev_view" },
+  { "keys": ["ctrl+browser_back"], "command": "focus_neighboring_group", "args": {"forward": false} },
+  { "keys": ["ctrl+browser_forward"], "command": "focus_neighboring_group" },
+
+
+  { "keys": ["ctrl+alt+c"], "command": "filename_to_clipboard" },
+  { "keys": ["ctrl+alt+shift+c"], "command": "path_to_clipboard" },
+
+
+  { "keys": ["f12"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["ctrl+f12"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
 ]
