@@ -1,11 +1,7 @@
 [
   { "keys": ["ctrl+\\"], "command": "find_under_expand" },
-  { "keys": ["ctrl+p"], "command": "goto_definition" },
-  { "keys": ["ctrl+f12"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-  { "keys": ["f12"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
-  
-  { "keys": ["ctrl+\\"], "command": "find_under_expand" },
-  { "keys": ["ctrl+p"], "command": "goto_definition" },  
+  { "keys": ["ctrl+]"], "command": "goto_definition" },  
+  { "keys": ["ctrl+["], "command": "jump_back" },
   { "keys": ["enter"], "command": "commit_completion", "context":
     [
       { "key": "auto_complete_visible" },
@@ -14,6 +10,7 @@
   },
 
   { "keys": ["ctrl+shift+s"], "command": "save_all" },
+
   
   { "keys": ["browser_forward"], "command": "next_view" },
   { "keys": ["browser_back"], "command": "prev_view" },
@@ -24,7 +21,7 @@
   { "keys": ["ctrl+alt+c"], "command": "filename_to_clipboard" },
   { "keys": ["ctrl+alt+shift+c"], "command": "path_to_clipboard" },
 
-
+  { "keys": ["f2"], "command": "reindent"}, 
   { "keys": ["f12"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
   { "keys": ["ctrl+f12"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
 ]
